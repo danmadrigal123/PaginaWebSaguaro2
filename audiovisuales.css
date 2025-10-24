@@ -4,8 +4,7 @@
    ESTILO GENERAL DEL BODY
    ========================= */
 body {
-    background-color: #10597D; 
-    background-image: url(assets/Diseño\ sin\ título\ \(1\).png);
+    background-color: #e9eff2; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: cover; 
@@ -69,46 +68,45 @@ nav .links a:not(:last-child){
    ========================= */
 .header h1 {
     text-align: center;
-    color: #f1f1f1;
+    color: #0A4A68;
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 /* =========================
-   SECCIÓN VIDEOS / NFT-SHOP
+   SECCIÓN VIDEOS
    ========================= */
 .separator, .nft-shop {
     padding: 20px 80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #fff;
+    color: #0A4A68;
     text-align: center;
 }
 
 .nft-shop .nft-list {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
 
 .video-container {
-    background-color: transparent;
+    background-color: #f5f5f5;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    flex: 1 1 45%;
+    max-width: 600px;
 }
 
 iframe {
     width: 100%;
-    max-width: 700px;
-    height: 400px;
+    height: 350px;
     border-radius: 10px;
     border: none;
 }
 
 .referencia {
-    width: 83%;
     text-align: right;
     margin-top: 5px;
 }
@@ -117,15 +115,14 @@ iframe {
    SECCIÓN DESCARGABLES
    ========================= */
 .descargables {
-    background-color: #0A4A68; 
-    color: #fff;
+    background-color: #dce6ea; 
+    color: #0A4A68;
     padding: 50px 80px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .descargables h2 {
-    color: #fff;
     font-size: 28px;
     margin-bottom: 30px;
 }
@@ -134,22 +131,35 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
 }
 
-.descargas-lista a {
-    background-color: #f1f1f1;
-    color: #0A4A68;
-    text-decoration: none;
-    padding: 12px 20px;
+.descarga-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
     border-radius: 10px;
-    font-weight: bold;
-    transition: all 0.3s ease;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
 }
 
-.descargas-lista a:hover {
-    background-color: #ffffffc0;
-    transform: translateY(-3px);
+.descarga-item:hover {
+    transform: translateY(-5px);
+}
+
+.descarga-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.descarga-item a {
+    text-decoration: none;
+    color: #0A4A68;
+    font-weight: bold;
 }
 
 /* =========================
@@ -222,39 +232,26 @@ footer .right p {
    MEDIA QUERIES
    ========================= */
 @media screen and (max-width: 768px) {
-    nav, header, h2.separator, .nft-shop {
-        padding: 0 20px;
-    }
-
-    nav a.logo{
-        display: none;
-    }
-
-    nav .links a{
-        font-size: 12px;
-    }
-
-    footer{
-        padding: 40px 20px;
+    .nft-shop .nft-list {
         flex-direction: column;
     }
 
-    footer h3{
-        margin-bottom: 20px;
-        font-size: 32px;
-    }
-
-    footer .right{
-        width: 100%;
-        align-items: center;
-    }
-
     iframe {
-        max-width: 100%;
         height: 250px;
     }
 
-    .descargables {
-        padding: 30px 20px;
+    .descargas-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer h3 {
+        font-size: 32px;
     }
 }
