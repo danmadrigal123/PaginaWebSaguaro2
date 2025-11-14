@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 body {
-    background-color: #aad3f5; /* Color de fondo blanco */
-    margin: 0; /* Elimina los márgenes predeterminados */
-    padding: 0; /* Elimina los rellenos predeterminados */
-    font-family: Arial, sans-serif; /* Tipo de letra */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f7fbfc;
+    color: #222;
 }
 
 nav {
