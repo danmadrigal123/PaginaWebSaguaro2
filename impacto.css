@@ -135,10 +135,8 @@ nav .login button.signup{
 }
 
 .p1 {
-    text-align: center; /* Centra el texto horizontalmente */
-    padding-top: 10px; /* Espaciado superior para no pegarse al borde del navegador */
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    line-height: 1.8;
+    text-align: justify;
 }
 
 
