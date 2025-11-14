@@ -104,9 +104,9 @@ nav .login button.signup{
 }
 
 .header h1 {
-    text-align: center; /* Centra el texto horizontalmente */
-    padding-top: 10px; /* Espaciado superior para no pegarse al borde del navegador */
-    font-family: 'Times New Roman', Times, serif;
+   font-size: 2rem;
+    color: #0f2182;
+    alianing: center;
 }
 
 .recuadro {
