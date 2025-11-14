@@ -70,7 +70,7 @@ nav .links a:not(:last-child){
     text-align: center;
     color: #0A4A68;
     padding-top: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* =========================
@@ -78,7 +78,7 @@ nav .links a:not(:last-child){
    ========================= */
 .separator, .nft-shop {
     padding: 20px 80px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #0A4A68;
     text-align: center;
 }
@@ -172,6 +172,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 footer h3 {
@@ -221,6 +222,7 @@ footer .right p {
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     transition: 0.3s;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-arriba:hover {
