@@ -127,7 +127,10 @@ nav .login button.signup{
     margin-left: auto; /* Alinea la imagen al centro horizontalmente */
     margin-right: auto; /* Alinea la imagen al centro horizontalmente */
 }
-
+.text-container h2 {
+    font-size: 2rem;
+    color: #0f2182;
+}
 .recuadro h5 {
     font-family: 'Times New Roman', Times, serif;
     text-align: right;
