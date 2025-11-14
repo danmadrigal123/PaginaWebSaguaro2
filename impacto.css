@@ -115,7 +115,7 @@ nav .login button.signup{
     padding: 20px; /* Relleno interno de 20px */
     width: 70%; /* Ancho del recuadro del 70% del ancho del contenedor padre */
     margin: 0 auto; /* Auto margen horizontal para centrar el recuadro */
-    text-align: justify; /* Justifica el texto dentro del recuadro */
+    text-align: center; /* Justifica el texto dentro del recuadro */
     margin-top: 5%;
     margin-bottom: 1%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
